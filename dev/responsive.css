@@ -1,0 +1,254 @@
+
+/* for mobile screen */
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+    .banner{
+        width: 100%;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .navcontent {
+        justify-content: flex-start;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .logo {
+        height: 40%;
+    }
+
+    .fa-solid {
+        font-size: 25rem;
+    }
+
+
+    .offer {
+        font-size: 20rem;
+        margin-left: 63px;
+        margin-right: 63px;
+    }
+
+    .textcontent {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 0;
+        width: 100%;
+    }
+
+    .india {
+        font-size: 25rem;
+    }
+
+    .des{
+        font-size: 20rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .buttonbox{
+        padding: 0;
+    }
+
+    .linkbox{
+        margin: 0;
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .firstcontent{
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .zlogo{
+        justify-content: center;
+    }
+
+    .lc{
+        justify-content: center;
+    }
+
+    .lo{
+        font-size: 12rem;
+    }
+
+    .fa-flag{
+        font-size: 12rem;
+    }
+    .fa-globe{
+        font-size: 12rem;
+    }
+    .fa-chevron-down{
+        font-size: 12rem;
+    }
+
+    .secondcontent{
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .groupfive{
+        display: none;
+    }
+
+    .atext{
+        margin: 5px;
+        font-size: 10rem;
+    }
+
+    .head{
+        margin: 5px;
+        font-size: 15rem;
+    }
+
+    .btext{
+        font-size: 10rem;
+    }
+
+    .groupone{
+        margin-top: 10px;
+    }
+
+}
+
+/* for laptop/PC screen */
+
+@media screen and (min-width:601px) and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .navcontent {
+        justify-content: flex-start;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .fa-solid {
+        font-size: 25rem;
+    }
+
+    .logo {
+        height: 60%;
+    }
+
+    .offer {
+        font-size: 35rem;
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+
+    .textcontent {
+        margin-top: 40px;
+        gap: 0;
+        width: 100%;
+    }
+
+    .buttonbox{
+        padding: 0;
+    }
+
+    .linkbox{
+        margin: 0;
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+   .firstcontent{
+    align-items: center;
+   }
+
+    .lc{
+        justify-content: center;
+    }
+
+    .lo{
+        font-size: 15rem;
+    }
+
+    .fa-flag{
+        font-size: 15rem;
+    }
+    .fa-globe{
+        font-size: 15rem;
+    }
+    .fa-chevron-down{
+        font-size: 15rem;
+    }
+
+    .lc{
+        padding: 10px;
+    }
+
+    .zlogo{
+        align-items: center;
+    }
+
+    .secondcontent{
+        margin: 15px;
+    }
+
+    .groupfive{
+        display: none;
+    }
+
+    .atext{
+        margin: 5px;
+        font-size: 10rem;
+    }
+
+    .head{
+        margin: 5px;
+        font-size: 15rem;
+    }
+
+    .btext{
+        font-size: 10rem;
+    }
+
+    
+
+}
+
+/* for wider screen */
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .offer {
+        margin-left: 195px;
+        margin-right: 195px;
+    }
+
+    .logo {
+        height: 60%;
+    }
+
+    .textcontent {
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .buttonbox{
+        padding: 0;
+    }
+
+    .linkbox{
+        margin: 0;
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+}
