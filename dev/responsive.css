@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 /* for mobile screen */
 
@@ -15,7 +22,9 @@
     }
 
     .navcontent {
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -36,7 +45,10 @@
     }
 
     .textcontent {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 40px;
         gap: 0;
         width: 100%;
@@ -64,16 +76,23 @@
     }
 
     .firstcontent{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         /* justify-content: center; */
     }
 
     .zlogo{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .lc{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .lo{
@@ -91,7 +110,10 @@
     }
 
     .secondcontent{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin: 15px;
     }
 
@@ -131,7 +153,9 @@
     }
 
     .navcontent {
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -168,11 +192,15 @@
     }
 
    .firstcontent{
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
    }
 
     .lc{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .lo{
@@ -194,7 +222,9 @@
     }
 
     .zlogo{
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .secondcontent{

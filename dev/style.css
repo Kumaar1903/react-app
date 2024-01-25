@@ -1,8 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
     margin: 0;
     padding: 0;
     font-size: 1px;
-    font-family: Verdana
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
@@ -20,8 +27,14 @@
 .navcontent {
     height: 10vh;
     /* background-color: red; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -29,8 +42,14 @@
     width: 80%;
     /* background-color: aqua; */
     height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     gap: 10px;
     padding-top: 17px;
@@ -45,7 +64,11 @@
 
 .innertext {
     min-height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     /* background-color: purple; */
 }
@@ -54,8 +77,15 @@
     height: 30vh;
     width: 100%;
     /* background-color: yellow; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -74,6 +104,7 @@
 .logo {
     width: 100%;
     height: 60%;
+    -o-object-fit: contain;
     object-fit: contain;
 }
 
@@ -93,7 +124,11 @@
 .location {
     min-height: 10vh;
     /* background-color: blue; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-top: 40px;
 }
@@ -102,8 +137,14 @@
     height: 10vh;
     width: 80%;
     /* background-color: yellow; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     gap: 20px;
 }
@@ -119,13 +160,21 @@
 
 .popular {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .ilogo {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 10px;
     font-weight: bolder;
@@ -157,7 +206,11 @@
     margin-top: 70px;
     /* min-height: 90vh; */
     /* background-color: pink; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -166,10 +219,17 @@
     min-height: 50vh;
     width: 100%;
     /* background-color: lightgreen; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 10px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
@@ -179,14 +239,22 @@
 }
 
 .linkbox {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
     background-color: white;
     border-radius: 12px;
     border: 2px solid lightgray;
     padding: 24px;
     margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     height: 5vh;
     width: 12%;
@@ -223,7 +291,11 @@ footer {
 .firstcontent {
     height: 10vh;
     /* background-color: violet; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 40px;
 }
@@ -231,7 +303,11 @@ footer {
 .zlogo {
     /* width: 50%; */
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     /* background-color: aqua; */
 }
@@ -240,22 +316,34 @@ footer {
     /* width: 50%; */
     height: 100%;
     /* background-color: green; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .s1 {
     height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     /* gap: 20px; */
 }
 
 .s2 {
     height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     /* gap: 20px; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-right: 10px;
 }
@@ -264,7 +352,11 @@ footer {
     height: 5vh;
     width: 50%;
     font-size: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 10px;
     border: 1px solid black;
@@ -318,45 +410,53 @@ footer {
 
 /* second section starts */
 
-.secondcontent{
+.secondcontent {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
-.head{
+.head {
     font-size: 20rem;
     margin-bottom: 6px;
     padding: 5px;
 }
 
-.atext{
+.atext {
     font-size: 15rem;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px;
 }
 
-.fa-linkedin{
+.fa-linkedin {
 
     font-size: 20rem;
     margin: 5px;
 }
-.fa-twitter{
+
+.fa-twitter {
 
     font-size: 20rem;
     margin: 5px;
 }
-.fa-instagram{
+
+.fa-instagram {
 
     font-size: 20rem;
     margin: 5px;
 }
-.fa-youtube{
+
+.fa-youtube {
 
     font-size: 20rem;
     margin: 5px;
 }
-.fa-facebook{
+
+.fa-facebook {
 
     font-size: 20rem;
     margin: 5px;
@@ -368,10 +468,12 @@ footer {
 
 /* third section starts */
 
-.btext{
+.btext {
     font-size: 15rem;
     margin: 25px;
     padding-bottom: 25px;
 }
+
+/* third section ends */
 
 /* footer styling ends here */
